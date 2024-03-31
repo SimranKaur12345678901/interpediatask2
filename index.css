@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.main{
+height: 800px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.container{
+    height: 300px;
+    width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .con1{
+    height: 90px;
+    width: 227px;
+    /* display: flex; */
+  /* justify-content: left; */
+    /* align-items: left; */
+    /* border: 2px solid black; */
+}
+.con1 input{
+    width: 223px;
+    height: 85px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    font-family:bold;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+ ::placeholder{
+color: white;
+}
+.con2 {
+display: flex;
+justify-content: space-evenly;
+}
+.con2 input{
+    height: 45px;
+    width: 50px;
+    border-radius: 45px;
+    font-size: larger;
+    font-family:bold;
+    font-family: "Roboto", sans-serif;
+}
+.con3{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .con3 input{
+        height: 45px;
+        width: 50px;
+        border-radius: 45px;
+        font-size: larger;
+        font-family:bold;
+}
+.con4{
+        display: flex;
+        justify-content: space-evenly;
+}
+.con4 input{
+            height: 45px;
+            width: 50px;
+            border-radius: 45px;
+            font-size: larger;
+            font-family:bold;
+}
+.con5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con5 input{
+        height: 45px;
+        width: 50px;
+        border-radius: 45px;
+        font-size: larger;
+        font-family:bold;
+}
+.con5 #ff input{
+  background-color: red;
+}
